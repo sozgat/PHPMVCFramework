@@ -1,0 +1,15 @@
+{
+    "name": "said.ozgat/phpmvc-framework",
+    "authors": [
+        {
+            "name": "said.ozgat",
+            "email": "said.ozgat@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
