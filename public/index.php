@@ -1,5 +1,6 @@
 <?php
 
+///Applications/MAMP/bin/php/php7.4.2/bin/php -S localhost:8085;
 error_reporting(E_ALL ^ E_STRICT);
 require_once __DIR__.'/../vendor/autoload.php';
 
