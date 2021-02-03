@@ -1,14 +1,27 @@
 <?php
 
 ///Applications/MAMP/bin/php/php7.4.2/bin/php -S localhost:8085;
+/// /Applications/MAMP/bin/php/php7.4.2/bin/php -S localhost:8089 -t public/
 error_reporting(E_ALL ^ E_STRICT);
-require_once __DIR__.'/../vendor/autoload.php';
 
 use app\controllers\AuthController;
 use app\controllers\SiteController;
 use app\core\Application;
 
-$app = new Application(dirname(__DIR__));
+require_once __DIR__.'/../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+$dotenv->load();
+
+$config = [
+    'db' => [
+        'dsn' => $_ENV['DB_DSN'],
+        'user' => $_ENV['DB_USER'],
+        'password' => $_ENV['DB_PASSWORD'],
+    ]
+];
+
+$app = new Application(dirname(__DIR__), $config);
 
 $app->router->get('/', [SiteController::class,'home']);
 
