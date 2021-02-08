@@ -4,10 +4,10 @@
     <list default="true" id="2b7bdd32-94c0-492d-9126-76a50a00211d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Application.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Response.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/form/Field.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/form/Field.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <workItem from="1606200428576" duration="14919000" />
       <workItem from="1606901963834" duration="10029000" />
       <workItem from="1612333647512" duration="8597000" />
-      <workItem from="1612533866812" duration="4527000" />
+      <workItem from="1612533866812" duration="7113000" />
     </task>
     <task id="LOCAL-00001" summary="+Created Layout,Views">
       <created>1606216323843</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612789002990</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="+Password Encryption and Registired user control">
+      <created>1612793339369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612793339369</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +133,8 @@
     <MESSAGE value="+validation rule added" />
     <MESSAGE value="+Database connection &amp; Migrations" />
     <MESSAGE value="+Registration, User DB Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="+Registration, User DB Model" />
+    <MESSAGE value="+Password Encryption and Registired user control" />
+    <option name="LAST_COMMIT_MESSAGE" value="+Password Encryption and Registired user control" />
   </component>
   <component name="WindowStateProjectService">
     <state x="388" y="100" key="#PHP" timestamp="1612338658483">
@@ -149,10 +157,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="506" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612535092748" />
-    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1612789002761">
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1612793339184">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612789002761" />
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612793339184" />
     <state x="556" y="354" key="Github.ShareDialog" timestamp="1606209190949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -170,10 +178,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="539" y="326" key="NewPhpFileDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612350745859" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1612789005746">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1612793342830">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612789005746" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612793342830" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1606213316620">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
