@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bdd32-94c0-492d-9126-76a50a00211d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PHPMVCFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHPMVCFramework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/RegisterModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/RegisterModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RegisterModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +65,8 @@
       <updated>1606200427428</updated>
       <workItem from="1606200428576" duration="14919000" />
       <workItem from="1606901963834" duration="10029000" />
-      <workItem from="1612333647512" duration="7932000" />
+      <workItem from="1612333647512" duration="8597000" />
+      <workItem from="1612533866812" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="+Created Layout,Views">
       <created>1606216323843</created>
@@ -107,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606991264846</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="+Database connection &amp; Migrations">
+      <created>1612350913355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612350913356</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +114,8 @@
     <MESSAGE value="+Created Controller and some changes" />
     <MESSAGE value="+forms and validation added" />
     <MESSAGE value="+validation rule added" />
-    <option name="LAST_COMMIT_MESSAGE" value="+validation rule added" />
+    <MESSAGE value="+Database connection &amp; Migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="+Database connection &amp; Migrations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="388" y="100" key="#PHP" timestamp="1612338658483">
@@ -137,14 +134,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1606991979509" />
-    <state x="553" y="180" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612348712636">
+    <state x="506" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612535092748">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="553" y="180" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612348712636" />
-    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1606991264680">
+    <state x="506" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612535092748" />
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1612350913060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1606991264680" />
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612350913060" />
     <state x="556" y="354" key="Github.ShareDialog" timestamp="1606209190949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -153,18 +150,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="488" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1606209210688" />
-    <state x="470" y="183" key="NewPhpClassDialog" timestamp="1612341717460">
+    <state x="470" y="183" key="NewPhpClassDialog" timestamp="1612534940298">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="470" y="183" key="NewPhpClassDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612341717460" />
-    <state x="539" y="343" key="NewPhpFileDialog" timestamp="1612341676918">
+    <state x="470" y="183" key="NewPhpClassDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612534940298" />
+    <state x="539" y="326" key="NewPhpFileDialog" timestamp="1612350745859">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="539" y="343" key="NewPhpFileDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612341676918" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606991271137">
+    <state x="539" y="326" key="NewPhpFileDialog/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612350745859" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1612350916580">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1606991271137" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/0.-1080.1920.1080@0.0.1440.900" timestamp="1612350916580" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1606213316620">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
