@@ -11,6 +11,7 @@ class Application
     public Database $db;
     public static Application  $app;
     public Controller $controller;
+    public ?DbModel $user;
 
     public function __construct($rootPath, array $config)
     {
@@ -42,5 +43,10 @@ class Application
     public function setController(Controller $controller): void
     {
         $this->controller = $controller;
+    }
+
+    public function login(DbModel $user)
+    {
+        //18.20
     }
 }
